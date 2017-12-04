@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/GroovyTurtle/auto-git/issues"
   },
-  "homepage": "https://github.com/GroovyTurtle/auto-git#readme"
+  "homepage": "https://github.com/GroovyTurtle/auto-git#readme",
+  "dependencies": {
+    "simple-git": "^1.84.0"
+  }
 }
