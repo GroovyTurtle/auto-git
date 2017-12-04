@@ -1,0 +1,18 @@
+[
+	{
+		"path": "reverse-proxy",
+		"branch": "master",
+		"run": [
+			"npm install",
+			"pm2 restart reverse-proxy --silent"
+		]
+	},
+	{
+		"path": "scraper",
+		"branch": "master",
+		"run": [
+			"npm install",
+			"pm2 restart scraper --silent"
+		]
+	}
+]
