@@ -1,6 +1,6 @@
 const simpleGit = require("simple-git/promise");
 const path = require('path');
-const basePath = '../';
+const basePath = '/var/www/';
 const targets = require('./targets.json');
 const pm = require('promisemaker');
 const exec = pm(require('child_process')).exec;

@@ -8,11 +8,19 @@
 		]
 	},
 	{
-		"path": "scraper",
+		"path": "phantomjs-app",
 		"branch": "master",
 		"run": [
 			"npm install",
-			"pm2 restart scraper --silent"
+			"pm2 restart dayofper --silent"
+		]
+	},
+	{
+		"path": "my-react",
+		"branch": "master",
+		"run": [
+			"npm install",
+			"pm2 restart reactofper --silent"
 		]
 	}
 ]
